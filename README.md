@@ -1,2 +1,36 @@
 # Deadlock-Simulation
-memvisualisasikan bagaimana deadlock terjadi saat proses memperebutkan sumber daya.
+
+Proyek ini berisi simulasi sederhana untuk menunjukkan bagaimana **deadlock** dapat terjadi pada proses/ thread yang saling berebut sumber daya.
+
+## Deskripsi
+
+Program Python pada file `deadlock_141.py` membuat beberapa thread dan beberapa lock. Setiap thread akan mengambil satu lock terlebih dahulu, lalu mencoba mengambil lock berikutnya. Karena urutan pengambilan lock dibuat saling berlawanan, program dapat berhenti di tengah jalan ketika semua thread saling menunggu lock milik thread lain.
+
+## Tujuan
+
+- Memahami konsep deadlock pada pemrograman paralel.
+- Melihat bagaimana lock bekerja pada multithreading.
+- Menjadi contoh sederhana untuk tugas atau demonstrasi di kelas.
+
+## Cara Menjalankan
+
+Jalankan file Python berikut:
+
+```bash
+python deadlock_141.py
+```
+
+## Struktur Program
+
+- `deadlock_141.py` : file utama simulasi deadlock.
+- `Readme.md` : penjelasan proyek.
+
+## Catatan
+
+Output program bisa berhenti sebelum selesai karena thread-thread saling menunggu lock. Itu memang bagian dari simulasi deadlock.
+
+## Teknologi
+
+- Python
+- `threading`
+- `time`
