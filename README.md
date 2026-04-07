@@ -29,6 +29,8 @@ python deadlock_141.py
 
 Output program bisa berhenti sebelum selesai karena thread-thread saling menunggu lock. Itu memang bagian dari simulasi deadlock.
 
-### Copyright 
+Program ini juga bisa dianalisis menggunakan tool `pystack` di Python untuk melihat stack atau aktivitas thread, terutama pada environment yang mendukungnya seperti Linux atau WSL.
+
+### Copyright
 
 Rhyred @ 152024141 Robi Rizki Permana
