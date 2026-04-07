@@ -10,7 +10,7 @@ Program Python pada file `deadlock_141.py` membuat beberapa thread dan beberapa 
 
 - Memahami konsep deadlock pada pemrograman paralel.
 - Melihat bagaimana lock bekerja pada multithreading.
-- Menjadi contoh sederhana untuk tugas atau demonstrasi di kelas.
+- Practice Quiz – synchronization.
 
 ## Cara Menjalankan
 
@@ -29,8 +29,6 @@ python deadlock_141.py
 
 Output program bisa berhenti sebelum selesai karena thread-thread saling menunggu lock. Itu memang bagian dari simulasi deadlock.
 
-## Teknologi
+### Copyright 
 
-- Python
-- `threading`
-- `time`
+Rhyred @ 152024141 Robi Rizki Permana
